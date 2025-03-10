@@ -55,6 +55,7 @@ export const htmlTransformer = (mods: Mod[]): string => {
 
 const transformModToHtml = (mod: Mod): string => {
   let output = `<h2>${mod.name}</h2>`;
+  output += `<b>Enabled</b>: ${mod.enabled ? "Yes" : "No"}<br />`;
   if (mod.version) {
     output += `<b>Version:</b> ${mod.version}<br />`;
   }

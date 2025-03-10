@@ -1,6 +1,6 @@
 {
   "name": "vortex-share-modlist",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Vortex extension to share your modlist in an easily readable format",
   "main": "./dist/index.js",
   "repository": "",
